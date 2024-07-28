@@ -1,0 +1,274 @@
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  z-index: 1000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.popup-content {
+  max-width: 400px;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: #999;
+}  
+.frame-child {
+  	width: 80px;
+  	position: relative;
+  	border-radius: 1000px;
+  	background-color: #767f8c;
+  	height: 80px;
+}
+.title {
+  	position: relative;
+  	line-height: 32px;
+  	font-weight: 500;
+}
+.time {
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 24px;
+  	color: #1b1616;
+}
+.title-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
+}
+.rectangle-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 24px;
+}
+.primary {
+  	position: relative;
+  	line-height: 24px;
+  	text-transform: capitalize;
+  	font-weight: 600;
+}
+.button {
+  	border-radius: 3px;
+  	border: 2px solid #0a65cc;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 24px;
+}
+.button-wrapper {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.frame-group {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 12px;
+  	font-size: 16px;
+  	color: #0a65cc;
+}
+.frame-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	z-index: 0;
+}
+.frame-item {
+  	width: 537px;
+  	position: relative;
+  	border-top: 1px solid #e4e5e8;
+  	box-sizing: border-box;
+  	height: 1px;
+}
+.cover-letter {
+  	width: 536px;
+  	position: relative;
+  	line-height: 18px;
+  	font-weight: 500;
+  	display: inline-block;
+}
+.dear-sir {
+  	width: 536px;
+  	position: relative;
+  	line-height: 24px;
+  	display: inline-block;
+}
+.i-am-writing {
+  	margin: 0;
+}
+.dear-sir-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 12px;
+  	font-size: 16px;
+  	color: #5e6670;
+}
+.time-start- {
+  	width: 536px;
+  	position: relative;
+  	line-height: 156px;
+  	font-weight: 500;
+  	display: inline-block;
+}
+.description {
+  	height: 338px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 24px;
+  	margin-top: 5%;
+}
+.line-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.jobteps {
+  	width: 216px;
+  	position: relative;
+  	line-height: 18px;
+  	text-transform: uppercase;
+  	display: inline-block;
+}
+.wwwestherhowardcom {
+  	width: 216px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 20px;
+  	font-weight: 500;
+  	color: #18191c;
+  	display: inline-block;
+}
+.heading {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 4px;
+}
+.frame-inner {
+  	width: 265px;
+  	position: relative;
+  	border-top: 1px solid #e4e5e8;
+  	box-sizing: border-box;
+  	height: 1px;
+}
+.zoneblock-basement-1 {
+  	width: 264px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 20px;
+  	color: #5e6670;
+  	display: inline-block;
+}
+.info-group {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 12px;
+}
+.info-parent {
+  	height: 298px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 20px;
+}
+.job-information {
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1.5px solid rgba(206, 224, 245, 0.7);
+  	box-sizing: border-box;
+  	height: 342px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 24px;
+}
+.job-information-wrapper {
+  	height: 342px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 12px;
+  	color: #767f8c;
+}
+.frame-container {
+  	align-self: stretch;
+  	height: 384px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 72px;
+  	z-index: 1;
+  	font-size: 18px;
+}
+.x-icon {
+  	width: 20px;
+  	position: relative;
+  	height: 20px;
+}
+.icon-button {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 0px;
+  	left: 1048px;
+  	border-radius: 100px;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 14px;
+  	z-index: 2;
+}
+.candidate-profile {
+  	width: 100%;
+  	position: relative;
+  	border-radius: 12px;
+  	background-color: #fff;
+  	height: 514px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 9px 48px;
+  	box-sizing: border-box;
+  	gap: 40px;
+  	text-align: left;
+  	font-size: 24px;
+  	color: #18191c;
+  	font-family: Inter;
+}
+

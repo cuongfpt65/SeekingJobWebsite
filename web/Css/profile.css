@@ -1,0 +1,850 @@
+.my-post {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    line-height: 28px;
+    font-weight: 700; /* Bolder text */
+    font-size: 34px; /* Larger text */
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 100%; /* Adjusted for responsiveness */
+}
+
+.date-applied {
+    font-weight: bold; /* Đặt độ đậm cho chữ */
+    font-family: Arial, sans-serif; /* Lựa chọn font chữ */
+    color: #333; /* Màu sắc cho chữ */
+    font-size: 16px; /* Cỡ chữ */
+    text-decoration: none; /* Bỏ gạch chân nếu có */
+    text-transform: uppercase; /* Chuyển thành in hoa */
+    letter-spacing: 1px; /* Khoảng cách giữa các chữ */
+    line-height: 24px; /* Chiều cao dòng */
+    width: 110px;
+    position: absolute;
+    margin: 0 !important;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 18px;
+    display: inline-block;
+    z-index: 0;
+}
+
+.detail {
+    font-weight: bold; /* Đặt độ đậm cho chữ */
+    font-family: Arial, sans-serif; /* Lựa chọn font chữ */
+    color: #333; /* Màu sắc cho chữ */
+    font-size: 16px; /* Cỡ chữ */
+    text-decoration: none; /* Bỏ gạch chân nếu có */
+    text-transform: uppercase; /* Chuyển thành in hoa */
+    letter-spacing: 1px; /* Khoảng cách giữa các chữ */
+    line-height: 24px; /* Chiều cao dòng */
+    width: 328px;
+    position: absolute;
+    margin: 0 !important;
+    top: 10px;
+    left: 67%;
+    transform: translateX(-50%);
+    line-height: 18px;
+    display: inline-block;
+    z-index: 1;
+}
+
+.jobs {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    width: 432px;
+    position: absolute;
+    margin: 0 !important;
+    top: 10px;
+    left: 17%;
+    transform: translateX(-50%);
+    line-height: 18px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.nav {
+    width: 100%; /* Adjusted for responsiveness */
+    border-radius: 4px;
+    background-color: #f1f2f4;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 20px;
+}
+
+.employers-logo-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+
+.employers-logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #6fda44;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+
+
+.phonecall-icon {
+    width: 48px; /* Đặt chiều rộng ảnh */
+    height: auto; /* Giữ tỷ lệ khung hình */
+
+}
+
+
+
+.sunior-ux-designer {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.featured {
+    position: relative;
+    line-height: 20px;
+}
+
+.badge {
+    border-radius: 52px;
+    background-color: #e7f0fa;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3px 12px;
+    font-size: 14px;
+    color: #0a65cc;
+}
+
+.heading1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.fimap-pin-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.loaction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14px;
+    color: #5e6670;
+}
+
+.heading-parent {
+    position: absolute;
+    top: calc(50% - 28px);
+    left: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.account {
+    width: 980px;
+    position: relative;
+    line-height: 50px;
+    font-weight: 500;
+    display: inline-block;
+
+}
+.frame-child {
+    position: absolute;
+    top: 47.5px;
+    left: -0.5px;
+    border-top: 1px solid #e4e5e8;
+    box-sizing: border-box;
+    width: 985px;
+    height: 1px;
+}
+.user-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+/* CSS */
+.tab-parent {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0; /* Màu nền mặc định */
+    padding: 10px;
+}
+
+.tab, .tab1 {
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+}
+.tab.active, .tab1.active {
+    background-color: #ccc; /* Màu nền khi tab active */
+}
+.ad {
+    background-color: #fff; /* Màu nền nội dung tab */
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    display: none; /* Ẩn nội dung mặc định */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+}
+.ad.active {
+    display: block; /* Hiển thị nội dung khi tab active */
+    background-color: #f9f9f9; /* Màu nền khi tab content active */
+}
+.tab img, .tab1 img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.personal, .personal1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+.line-parent {
+
+    border-bottom: 1px solid #e4e5e8;
+
+    width: 984px;
+    position: relative;
+    height: 48px;
+    font-size: 14px;
+    color: #767f8c;
+}
+.account-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.candidate-settings {
+    border-bottom: groove;
+    position: absolute;
+    top: 35px;
+    
+    background-color: #fff;
+    width: 186%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}  
+.candidate-settings-wrapper {
+    width: 984px;
+    position: relative;
+    height: 96px;
+}
+.heading {
+    width: 850px;
+    position: relative;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px 92px;
+    box-sizing: border-box;
+}
+
+.june-12-2021 {
+    width: 148px;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5e6670;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.primary {
+    font-weight: bold; /* Đặt độ đậm cho chữ */
+    font-family: Arial, sans-serif; /* Lựa chọn font chữ */
+    color: #333; /* Màu sắc cho chữ */
+    font-size: 16px; /* Cỡ chữ */
+    text-decoration: none; /* Bỏ gạch chân nếu có */
+    text-transform: uppercase; /* Chuyển thành in hoa */
+    letter-spacing: 1px; /* Khoảng cách giữa các chữ */
+    line-height: 24px; /* Chiều cao dòng */
+    position: relative;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+
+.button3 {
+    justify-content: center;
+    display: inline-block;
+    background-color: #0a65cc;
+    border: 2px solid #0a65cc;
+    border-radius: 5px;
+    padding: 10px 10px;
+
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button3 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button3:hover {
+    background-color: transparent;
+    color: #0a65cc;
+}
+
+.button3:hover a {
+    color: #0a65cc;
+}
+
+.job {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.frame-child {
+    position: absolute;
+    top: 95.5px;
+    left: -0.5px;
+    border-top: 1px solid #e4e5e8;
+    box-sizing: border-box;
+    width: 100%; /* Adjusted for responsiveness */
+    height: 1px;
+}
+
+.employers-logo-icon1 {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.employers-logo1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #ea4c89;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px;
+}
+
+.job1 {
+    position: absolute;
+    top: 96px;
+    left: 0px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.frame-item {
+    position: absolute;
+    top: 191.5px;
+    left: -0.5px;
+    border-top: 1px solid #e4e5e8;
+    box-sizing: border-box;
+    width: 100%; /* Adjusted for responsiveness */
+    height: 1px;
+}
+
+.employers-logo2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #191f33;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px;
+}
+
+.job2 {
+    position: absolute;
+    top: 192px;
+    left: 0px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.frame-inner {
+    position: absolute;
+    top: 575.5px;
+    left: -0.5px;
+    border-top: 1px solid #e4e5e8;
+    box-sizing: border-box;
+    width: 100%; /* Adjusted for responsiveness */
+    height: 1px;
+    display: none;
+}
+
+.line-div {
+    position: absolute;
+    top: 671.5px;
+    left: -0.5px;
+    border-top: 1px solid #e4e5e8;
+    box-sizing: border-box;
+    width: 100%; /* Adjusted for responsiveness */
+    height: 1px;
+    display: none;
+}
+
+.pagination {
+    position: absolute;
+    top: 568px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 352px;
+    height: 48px;
+}
+
+.job-parent {
+    width: 100%; /* Adjusted for responsiveness */
+    position: relative;
+    height: 636px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 16px;
+    color: #18191c;
+}
+
+.nav-parent {
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    width: 100%; /* Adjusted for responsiveness */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 22px;
+    color: #474c54;
+}
+
+.my-post-parent {
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #e4e5e8;
+    box-sizing: border-box;
+    height: 744px;
+    text-align: left;
+    font-size: 18px;
+    color: #18191c;
+    font-family: Inter;
+}
+
+.profile-picture-child {
+    margin-left: 15%;
+    margin-top: 8%;
+    width: 310px;
+    position: relative;
+    border-radius: 12px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 35%;
+}
+
+.company {
+    position: relative;
+    line-height: 20px;
+}
+
+.input-field2 {
+    width: 108%;
+    align-self: stretch;
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #e4e5e8;
+    box-sizing: border-box;
+    height: 48px;
+    font-size: 18px;
+}
+
+.input-field1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+
+}
+
+.row {
+    width: 696px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+}
+
+.input-field14 {
+    align-self: stretch;
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #e4e5e8;
+    box-sizing: border-box;
+    height: 139px;
+}
+
+.input-field13 {
+    width: 696px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.input-field-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.profile-picture-parent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+    text-align: left;
+    font-size: 22px;
+    color: #18191c;
+    font-family: Inter;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .date-applied, .detail, .jobs {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 10px 0;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .heading-parent {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .pagination {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .date-applied, .detail, .jobs {
+        width: 100%;
+    }
+
+    .heading, .my-post {
+        width: 100%;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        padding: 10px 20px;
+    }
+
+    .badge {
+        font-size: 12px;
+        padding: 2px 10px;
+    }
+
+    .heading-parent {
+        left: 20px;
+        transform: none;
+    }
+
+    .pagination {
+        width: 100%;
+    }
+}
+.head-profil {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+    font-size: 64px;
+    color: #0d1a33;
+    font-family: Inter;
+}
+.the-analogies-and {
+    width: 578px;
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 200;
+    height: 325px;
+    flex-shrink: 0;
+}
+.content {
+    width: 578px;
+    height: 524px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 19px;
+}
+.separator {
+    align-self: stretch;
+    position: relative;
+    border-top: 1px solid rgba(13, 26, 51, 0.1);
+    box-sizing: border-box;
+    height: 1px;
+}
+.michael-scott1 {
+    width: 578px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    height: 34px;
+    flex-shrink: 0;
+}
+.badge3 {
+    width: 67px;
+    border-radius: 4px;
+    background-color: #fffbc7;
+    height: 24px;
+    display: none;
+}
+.container-badges {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    text-align: center;
+    font-size: 21px;
+}
+.phonecall-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.span1 {
+    white-space: pre-wrap;
+}
+.badge2 {
+    border-radius: 4px;
+    background-color: #fff1e3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 8px;
+    font-size: 14px;
+}
+.span {
+    font-size: 16px;
+}
+.text {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+    font-weight: 500;
+}
+.badge1 {
+    border-radius: 4px;
+    background-color: #e0fadd;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 8px;
+    box-sizing: border-box;
+}
+.info1 {
+    width: 258px;
+    position: relative;
+    height: 20px;
+    font-size: 14px;
+    color: #5e6670;
+}
+.badge {
+    width: 71px;
+    border-radius: 4px;
+    background-color: #edecff;
+    height: 24px;
+    display: none;
+}
+.span {
+    font-size: 16px;
+}
+.text {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+    font-weight: 500;
+}
+.fimap-pin-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.washington {
+    position: relative;
+    line-height: 20px;
+}
+.loaction1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.k-80kmonth {
+    width: 418px;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.price {
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.avatar-icon {
+
+    width: 390px;
+    position: relative;
+    border-radius: 6px;
+    height: 483px;
+    object-fit: cover;
+}
+.michael-scott {
+    width: 558px;
+    position: relative;
+    display: inline-block;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

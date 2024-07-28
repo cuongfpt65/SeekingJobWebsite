@@ -1,0 +1,334 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jul 23, 2024, 2:43:05 AM
+    Author     : Trần Tấn Lợi-CE171879
+*/
+
+.seekingjobwebsite {
+    position: absolute;
+    top: 31px;
+    left: 42px;
+    font-weight: 600;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 15px;
+    background-color: #000842;
+    width: 735px;
+    height: 859px;
+}
+.find-your-dream {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 600;
+}
+.start-a-successful {
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    width: 396px;
+}
+.find-your-dream-job-parent {
+    position: absolute;
+    top: 605px;
+    left: 0px;
+    width: 408px;
+    height: 94px;
+}
+.saly-10-icon {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 521px;
+    height: 521px;
+    object-fit: cover;
+}
+.group-parent {
+    position: absolute;
+    top: 64px;
+    left: 98px;
+    width: 546px;
+    height: 699px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 20px;
+    left: 683px;
+    width: 735px;
+    height: 859px;
+    font-size: 40px;
+    color: #fff;
+}
+.forgot-password {
+     position: absolute;
+    top: 76%;
+    left: 0px;
+    font-weight: 300;
+    -webkit-text-stroke: 1px #0c21c1;
+}
+.forgot-password1{
+     position: absolute;
+    top: 76%;
+    left: 0px;
+    font-weight: 700;
+    
+}
+.forgot-password-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 251px;
+    height: 45px;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    background-color: #0c21c1;
+    width: 429px;
+    height: 53px;
+}
+.rectangle-group {
+   
+    display: inline-block;
+    background: linear-gradient(45deg, #0c21c1, #004aad);
+    border: none;
+    border-radius: 30px;
+    width: 429px;
+    top: 85%;
+    height: 53px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    line-height: 53px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none; /* Remove the default outline */
+}
+
+.rectangle-group:hover {
+    background: linear-gradient(45deg, #09217d, #00358b);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.rectangle-group:active {
+    background: linear-gradient(45deg, #0a1a66, #002d6b);
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login {
+    position: relative;
+    z-index: 1;
+}
+.otp {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-weight: 500;
+}
+.enter-your-email {
+    position: absolute;
+    top: 48.44%;
+    left: 6.29%;
+    font-size: 16px;
+    color: #000842;
+    border: none;
+    outline: none;
+}
+.frame-child {
+    position: absolute;
+    height: 3.13%;
+    width: 100%;
+    top: 96.88%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #000842;
+}
+.message-1-icon {
+    position: absolute;
+    height: 26.56%;
+    width: 3.96%;
+    top: 54.69%;
+    right: 96.04%;
+    bottom: 18.75%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.otp-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 429px;
+    height: 64px;
+}
+.frame-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 6px;
+    width: 429px;
+    height: 64px;
+}
+.confrim-password {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    font-weight: 500;
+    display: inline-block;
+    width: 120px;
+    height: 20px;
+}
+.group-inner {
+    position: absolute;
+    top: 62px;
+    left: 1px;
+    background-color: #999;
+    width: 429px;
+    height: 2px;
+}
+.confrim-your-password {
+    position: absolute;
+    top: 0px;
+    left: 28px;
+    display: inline-block;
+    width: 186px;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+.padlock-1-icon {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    width: 17px;
+    height: 17px;
+    overflow: hidden;
+}
+.confrim-your-password-parent {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 214px;
+    height: 24px;
+    font-size: 16px;
+    color: #000842;
+}
+.invisible-1-icon {
+    position: absolute;
+    top: 39px;
+    left: 416px;
+    width: 14px;
+    height: 14px;
+    overflow: hidden;
+}
+.confrim-password-parent {
+    position: absolute;
+    top: 202px;
+    left: 1px;
+    width: 430px;
+    height: 64px;
+}
+.password {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    font-weight: 500;
+    display: inline-block;
+    width: 64px;
+    height: 20px;
+}
+.enter-your-password {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0px;
+    left: 28px;
+    display: inline-block;
+    width: 162px;
+    height: 24px;
+}
+.padlock-1-icon1 {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 17px;
+    height: 17px;
+    overflow: hidden;
+}
+.enter-your-password-parent {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 190px;
+    height: 24px;
+    font-size: 16px;
+    color: #000842;
+}
+.password-parent {
+    position: absolute;
+    top: 101px;
+    left: 0px;
+    width: 430px;
+    height: 64px;
+}
+.group-div {
+    position: absolute;
+    top: 101px;
+    left: 0px;
+    width: 435px;
+    height: 366px;
+    font-size: 13px;
+    color: #999;
+}
+.group-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 435px;
+    height: 467px;
+}
+.login-12-inner {
+    position: absolute;
+    top: 222px;
+    left: 118px;
+    width: 435px;
+    height: 467px;
+    font-size: 30px;
+}
+.login-12 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    font-family: Poppins;
+}
+.forgot-password-container {
+    position: absolute;
+    top: 374px;
+    left: 2px;
+    width: 108px;
+    height: 18px;
+    font-size: 12px;
+    color: transparent;
+}

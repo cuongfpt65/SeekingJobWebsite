@@ -1,0 +1,210 @@
+/* Base Styles */
+body {
+    font-family: Poppins, Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.login-3-register {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+}
+
+/* Header */
+.seekingjobwebsite {
+    position: absolute;
+    top: 31px;
+    left: 42px;
+    font-weight: 600;
+}
+
+/* Rectangle Parent */
+.rectangle-parent {
+    position: absolute;
+    top: 21px;
+    left: 683px;
+    width: 735px;
+    height: 859px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.group-child {
+    margin-left: -17%;
+    position: absolute;
+    top: 0px;
+    left: 58px;
+    border-radius: 15px;
+    background-color: #000842;
+    width: 614px;
+    height: 859px;
+}
+
+/* Group Parent */
+.group-parent {
+   position: absolute;
+    top: 64px;
+    left: -31px;
+    width: 546px;
+    height: 699px;
+}
+
+.find-your-dream-job-parent {
+    position: absolute;
+    top: 605px;
+    left: 0px;
+    width: 408px;
+    height: 94px;
+}
+
+.find-your-dream {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 600;
+}
+
+.start-a-successful {
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    width: 396px;
+}
+
+.saly-10-icon {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 521px;
+    height: 521px;
+    object-fit: cover;
+}
+/* Container adjustments */
+.container {
+    position: relative;
+    padding: 20px;
+    max-width: 400px; /* Adjusted width for card-like appearance */
+    margin: 0 auto;
+    background-color: #fff; /* White background for card */
+    border: 1px solid #ddd; /* Light border for card effect */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Heading styles */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.log-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.already-have-account {
+    font-size: 14px;
+}
+
+.log-in1 {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.log-in1:hover {
+    text-decoration: underline;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Select box */
+.select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Input field styles */
+.input-field, .input-field2 {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Error messages */
+#emailErrorMessage, #emailExistsMessage, #errorMessage, #phoneErrorMessage {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.fiarrow-right-icon {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Input field parent adjustments */
+.input-field-parent {
+    margin-bottom: 20px;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        max-width: 100%; /* Make it full width on smaller screens */
+    }
+}
+
+/* Style for select element to match input fields */
+.select, .input-field2 {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+

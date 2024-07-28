@@ -1,0 +1,292 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jul 14, 2024, 8:10:59 PM
+    Author     : Trần Tấn Lợi-CE171879
+*/
+
+.image-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 999.5px;
+  	height: 1080px;
+  	object-fit: cover;
+}
+.over-175324-candidates {
+  	width: 560px;
+  	position: relative;
+  	line-height: 48px;
+  	font-weight: 500;
+  	display: inline-block;
+}
+.briefcase-duotone-1-icon {
+  	width: 32px;
+  	position: relative;
+  	height: 32px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.briefcase-duotone-1-wrapper {
+  	border-radius: 8px;
+  	background-color: rgba(255, 255, 255, 0.1);
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 16px;
+}
+.div {
+  	width: 180px;
+  	position: relative;
+  	line-height: 32px;
+  	font-weight: 500;
+  	display: inline-block;
+}
+.live-job {
+  	width: 180px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 20px;
+  	display: inline-block;
+  	opacity: 0.7;
+}
+.info1 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 4px;
+}
+.feature {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 24px;
+}
+.featued {
+  	width: 560px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	font-size: 20px;
+}
+.info {
+  	position: absolute;
+  	top: 676px;
+  	left: 138px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 50px;
+}
+.image {
+  	position: absolute;
+  	top: 0px;
+  	left: 922px;
+  	width: 999.5px;
+  	height: 1080px;
+  	color: #fff;
+}
+.create-account {
+  	width: 312px;
+  	position: relative;
+  	line-height: 40px;
+  	font-weight: 500;
+  	display: inline-block;
+}
+.already-have-account {
+  	position: relative;
+  	line-height: 24px;
+}
+.log-in1 {
+  	position: relative;
+  	line-height: 24px;
+  	font-weight: 500;
+  	color: #0a65cc;
+}
+.log-in {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 16px;
+  	color: #5e6670;
+}
+.heading {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 16px;
+}
+.selected {
+  	position: absolute;
+  	top: calc(50% - 10px);
+  	left: 18px;
+  	line-height: 20px;
+}
+.fichevron-down-icon {
+  	position: absolute;
+  	top: calc(50% - 10px);
+  	right: 16px;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+}
+.select {
+  	width: 150px;
+  	position: relative;
+  	border-radius: 6px;
+  	background-color: #fff;
+  	border: 1px solid #e4e5e8;
+  	box-sizing: border-box;
+  	height: 48px;
+  	font-size: 14px;
+  	color: #464d61;
+}
+.heading-parent {
+  	width: 536px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	font-size: 32px;
+}
+.email-address {
+  	position: absolute;
+  	top: 12px;
+  	left: 18px;
+  	line-height: 24px;
+}
+.input-field {
+  	width: 258px;
+  	position: relative;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4e5e8;
+  	box-sizing: border-box;
+  	height: 48px;
+}
+.input-field-parent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 20px;
+}
+.password {
+  	position: absolute;
+  	top: calc(50% - 12px);
+  	left: 18px;
+  	line-height: 24px;
+}
+.fieye-icon {
+  	position: absolute;
+  	top: calc(50% - 11px);
+  	right: 18px;
+  	width: 22px;
+  	height: 22px;
+  	overflow: hidden;
+}
+.input-field2 {
+  	width: 536px;
+  	position: relative;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 1px solid #e4e5e8;
+  	box-sizing: border-box;
+  	height: 48px;
+}
+.frame-group {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 20px;
+  	color: #767f8c;
+}
+.primary {
+  	position: relative;
+  	line-height: 24px;
+  	text-transform: capitalize;
+  	font-weight: 600;
+}
+.fiarrow-right-icon {
+  	width: 24px;
+  	position: relative;
+  	height: 24px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.button {
+  	width: 536px;
+  	border-radius: 4px;
+  	background-color: #0a65cc;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 32px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	color: #fff;
+}
+.frame-parent {
+  	position: absolute;
+  	top: calc(50% - 328px);
+  	left: 300px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 32px;
+  	font-size: 16px;
+}
+.briefcase-1-icon {
+  	width: 40px;
+  	position: relative;
+  	height: 40px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.myjob {
+  	position: relative;
+  	line-height: 40px;
+  	font-weight: 600;
+}
+.logo {
+  	position: absolute;
+  	top: calc(50% - 20px);
+  	left: 300px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 8px;
+}
+.navigation {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1920px;
+  	height: 100px;
+  	font-size: 24px;
+}
+.create-account-company {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 1080px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 40px;
+  	color: #18191c;
+  	font-family: Inter;
+}
+
